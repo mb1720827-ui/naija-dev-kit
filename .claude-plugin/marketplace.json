@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "naija-dev-kit",
+  "description": "Build Nigerian apps correctly with your AI coding assistant.",
+  "owner": {
+    "name": "Ogundipe Peter Temiloluwa",
+    "url": "https://github.com/mb1720827-ui"
+  },
+  "plugins": [
+    {
+      "name": "naija-dev-kit",
+      "description": "Skills for Paystack payments, Nigerian phone numbers, naira, states, low-bandwidth UX and NDPA data protection.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "naija-dev-kit",
+  "description": "Skills that teach your AI assistant to build Nigerian apps correctly: Paystack payments, phone numbers, naira, states, slow networks and NDPA data protection.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ogundipe Peter Temiloluwa",
+    "url": "https://github.com/mb1720827-ui"
+  },
+  "homepage": "https://github.com/mb1720827-ui/naija-dev-kit",
+  "repository": "https://github.com/mb1720827-ui/naija-dev-kit",
+  "license": "MIT",
+  "keywords": ["nigeria", "paystack", "naira", "fintech", "skills", "vibe-coding"]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "naija-dev-kit",
+  "version": "0.1.0",
+  "description": "Tested helpers, Claude Code skills and an MCP server for building Nigerian apps correctly: Paystack, phone numbers, naira, states and more.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "naija-dev-kit-mcp": "./dist/mcp.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "skills"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "keywords": [
+    "nigeria",
+    "paystack",
+    "naira",
+    "phone",
+    "mcp",
+    "claude-code",
+    "skills",
+    "vibe-coding"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mb1720827-ui/naija-dev-kit.git"
+  },
+  "homepage": "https://github.com/mb1720827-ui/naija-dev-kit#readme",
+  "author": "Ogundipe Peter Temiloluwa"
+}
